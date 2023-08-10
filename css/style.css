@@ -1,0 +1,371 @@
+@charset "UTF-8";
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap");
+div.wrap {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: "한컴돋움";
+}
+@media screen and (max-width: 640px) {
+  div.wrap {
+    max-width: initial;
+    max-width: 100%;
+  }
+}
+div.wrap > section article {
+  padding-bottom: 60px;
+  text-align: center;
+}
+div.wrap > section article > h2 {
+  width: 104px;
+  height: 50px;
+  margin: 50px auto;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+}
+div.wrap > section article > h3 {
+  margin-bottom: 20px;
+  color: #5f0080;
+  font-size: 37px;
+}
+div.wrap > section article > p {
+  margin: 30px 0;
+  color: #888;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+}
+div.wrap > section article figure {
+  margin: 50px 0 px;
+}
+div.wrap > section article figure > .notice {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #9a70cc;
+}
+
+header {
+  position: relative;
+  padding-top: 60px;
+  color: #fff;
+  text-align: center;
+  background-color: #8200ad;
+}
+@media screen and (max-width: 640px) {
+  header {
+    padding-top: 50px;
+  }
+}
+header > span.c_line {
+  display: inline-block;
+  position: absolute;
+  top: 130px;
+  left: 240px;
+  width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #fff;
+}
+@media screen and (max-width: 640px) {
+  header > span.c_line {
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    width: 400px;
+  }
+}
+header > span.logo {
+  display: block;
+  position: relative;
+  padding: 25px;
+  width: 193px;
+  height: 111px;
+  margin: 0 auto;
+  background-color: #8200ad;
+}
+@media screen and (max-width: 640px) {
+  header > span.logo {
+    width: 130px;
+    padding: 10px;
+  }
+  header > span.logo > img {
+    width: 130px;
+  }
+}
+header > p {
+  font-size: 20px;
+  font-weight: 600;
+}
+header > h1 {
+  padding: 15px;
+  font-size: 60px;
+}
+
+section.benefit > article {
+  border-bottom: 1px solid #8200ad;
+  text-align: center;
+}
+section.benefit > article > h2 {
+  background-image: url(../images/nom-1.png);
+}
+section.benefit > article > h3 {
+  font-family: "Source Sans 3", sans-serif;
+}
+section.benefit > nav.items {
+  width: 800px;
+  padding: 100px 0 0;
+  margin: 0 auto;
+  position: relative;
+}
+section.benefit > nav.items > p {
+  position: absolute;
+  top: -23px;
+  left: 294px;
+  width: 212px;
+  height: 47px;
+  margin: 0 auto;
+  text-indent: -9999px;
+  background-image: url("../images/tac.png");
+  background-color: #fff;
+  border-radius: 23px;
+}
+section.benefit > nav.items > ul > li {
+  display: flex;
+  padding-bottom: 105px;
+}
+section.benefit > nav.items > ul > li:nth-child(2) > a {
+  order: 300;
+}
+section.benefit > nav.items > ul > li:nth-child(2) > ol {
+  order: 200;
+}
+section.benefit > nav.items > ul > li > a > img {
+  display: block;
+  width: 310px;
+  height: 395px;
+}
+section.benefit > nav.items > ul > li > ol {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 790px;
+  height: 395px;
+}
+section.benefit > nav.items > ul > li > ol > li {
+  font-weight: 550;
+}
+section.benefit > nav.items > ul > li > ol > li:nth-child(1) {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+section.benefit > nav.items > ul > li > ol > li:nth-child(2) {
+  width: 310px;
+  font-size: 30px;
+  text-align: center;
+  background-image: url("../images/outline.png");
+  background-position: 0 7px;
+  background-repeat: no-repeat;
+}
+section.benefit > nav.items > ul > li > ol > li:nth-child(2) > a {
+  color: #8200ad;
+}
+section.benefit > nav.items > ul > li > ol > li:nth-child(2) > a > span.dc {
+  margin-right: 60px;
+  color: #888;
+}
+
+section.benefits_1 > article {
+  padding: 30px;
+}
+section.benefits_1 > article:nth-child(1) {
+  margin-bottom: 100px;
+}
+section.benefits_1 > article:nth-child(1) > h2 {
+  background-image: url("../images/nom-2.png");
+}
+section.benefits_1 > article:nth-child(2) {
+  background-color: #f6f6f6;
+  padding-bottom: 50px;
+}
+section.benefits_1 > article:nth-child(2) > h2 {
+  background-image: url("../images/nom-3.png");
+}
+section.benefits_1 > article:nth-child(2) > figure div.coupon {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin: 0 auto 50px;
+}
+section.benefits_1 > article:nth-child(2) > figure div.coupon > img {
+  width: 454px;
+}
+section.benefits_1 > article:nth-child(3) > h2 {
+  background-image: url("../images/nom-4.png");
+}
+section.benefits_1 > article:nth-child(3) > figure > figcaption {
+  margin: 70px 0px 40px;
+}
+section.benefits_1 > article:nth-child(4) {
+  padding: 70px;
+  background-color: #f6f6f6;
+}
+section.benefits_1 > article:nth-child(4) > div.sug_items {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+section.benefits_1 > article:nth-child(4) > div.sug_items > figure {
+  margin: 0;
+}
+section.benefits_1 > article:nth-child(4) > div.sug_items > figure > a:hover {
+  outline: 1px solid #8200ad;
+}
+section.benefits_1 > article:nth-child(4) > div.sug_items > figure > figcaption {
+  margin-top: 20px;
+}
+section.benefits_1 > article:nth-child(4) > div.sug_items > figure > figcaption > a {
+  color: #888;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+section.benefits_1 > article:nth-child(4) > ol {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 100px 0;
+}
+section.benefits_1 > article:nth-child(4) > ol > li {
+  width: 381px;
+  margin: 0 auto;
+}
+section.benefits_1 > article:nth-child(4) > ol > li > a {
+  display: block;
+  height: 84px;
+  padding-right: 60px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 84px;
+  background-image: url("../images/btn-2.png");
+}
+section.benefits_1 > article:nth-child(4) > ol > li > a:hover {
+  color: #5f0080;
+  background-image: url("../images/btn-1.png");
+}
+
+footer.add {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+footer.add > div.left {
+  padding: 70px 45px 0 70px;
+}
+footer.add > div.left h4 {
+  font-size: 18px;
+  font-weight: 800;
+}
+footer.add > div.left > figure {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+footer.add > div.left > figure > p {
+  margin-right: 10px;
+  text-align: center;
+  width: 125px;
+}
+footer.add > div.left > figure > p > a {
+  display: block;
+  height: 30px;
+  color: #888;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 30px;
+  border: 1px solid #888;
+}
+footer.add > div.left > figure > p:first-child {
+  font-size: 24px;
+}
+footer.add > div.left > figure > figcaption {
+  height: 30px;
+  padding: 5px 0;
+  font-size: 12px;
+  line-height: 20px;
+}
+footer.add > div.left > figure > figcaption > span {
+  font-weight: 800;
+}
+footer.add > div.right {
+  width: 45%;
+  padding: 140px 80px 10px;
+  font-weight: 600;
+}
+footer.add > div.right > ul.gnb {
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+footer.add > div.right > ul.gnb > li > a {
+  color: #000;
+  font-size: 14px;
+}
+footer.add > div.right > ul.gnb > li > a:hover {
+  color: #5f0080;
+}
+footer.add > div.right > div {
+  color: #888;
+}
+footer.add > div.right > div > small {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+footer.add > div.right > div > small > a {
+  color: #5f0080;
+}
+footer.add > div.right > div > small:last-child {
+  margin-bottom: 0;
+}
+footer.add > div.right > div > address {
+  margin: 30px 0 15px;
+  font-size: 13px;
+}
+footer.add > div.right > ol.sns {
+  display: flex;
+}
+footer.add > div.right > ol.sns > li {
+  margin-right: 8px;
+}
+footer.add > div.right > ol.sns > li > a {
+  display: block;
+  width: 30px;
+}
+footer.add > div.right > ol.sns > li > a > img {
+  height: 30px;
+}
+
+/*--------기타정보-------*/
+footer.other {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding: 15px 50px 80px;
+  border-top: 1px solid #888;
+}
+footer.other > figure {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+footer.other > figure > a > img {
+  height: 37px;
+}
+footer.other > figure > figcaption {
+  padding: 10px;
+  color: #888;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 20px;
+}/*# sourceMappingURL=style.css.map */
